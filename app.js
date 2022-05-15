@@ -40,8 +40,8 @@ function renderUsers(usersData) {
             <button class="btn" id="moreBtn"  onClick="showToggle(this)">Show More</button>
            
         </div>
-        <div class="user-more-info">
-        <div class="flex-container">
+        <div class="user-more-info" >
+        <div class="flex-container" >
     <span class="email"><span style="font-weight: 500;">Email:</span> <em>${user.email}</em></span>
     <span class="phone"><span style="font-weight: 500;   background-color: hsl(178, 81%, 94%);">Number:</span> <em>${user.phone}</em></span>
     <span class="address"><span style="font-weight: 500;">Address:</span> <em>${user.address.street}, ${
@@ -68,7 +68,7 @@ function renderUsers(usersData) {
     }
   };
 
-
+    // show more functionality
     showToggle = (e) => {
         if (e.parentElement.nextElementSibling.style.display === "block") {
           e.innerText = "Show More";
@@ -77,7 +77,6 @@ function renderUsers(usersData) {
         } else {
           e.innerText = "Show Less";
           e.parentElement.nextElementSibling.style.display = "block";
-          
         }
       };
   
