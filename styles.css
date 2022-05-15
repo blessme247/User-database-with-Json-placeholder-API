@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    width: 90%;
+    margin-top: 1.875rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-section {
+    background-color: hsl(178, 93%, 39%);
+    padding-bottom: 1.5rem;
+    color: white;
+    padding-top: .5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.heading-section h2 {
+    margin-left: .5rem;
+}
+.search-section {
+    background-color: hsl(178, 75%, 39%);
+    margin-top: 0.8rem ;
+    padding: .625rem;
+    margin-top: -1rem;
+    border-radius: 5px;
+}
+#search {
+    background-color: white;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+#search:focus {
+    outline: none;
+}
+form {
+    display: flex;
+    padding-top: .5rem;
+    align-items: center;
+    gap: 1rem;
+}
+#filter {
+    height: 2.3rem;
+    width: 10rem;
+    border-radius: 0.3125rem;
+}
+option {
+    padding: 2rem ;
+}
+label {
+    color: white;
+}
+#name, #username {
+    margin-top: .9rem;
+}
+.users-section {
+    margin-top: 1.25rem;
+}
+li {
+    list-style: none;
+    /* padding: 0.75rem 0; */
+    border: 1px solid #DDDDDD;
+    background-color: #f6f6f6;
+    margin-top: -1px;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+}
+li:hover {
+     background-color: hsl(178, 81%, 94%);
+}
+ li .username {
+    color: white;
+    background-color: #07BEB8;
+    padding: .375rem ;
+    border-radius: 0.3125rem;
+    font-size: 0.875rem;
+    margin-left: .2rem;
+}
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-summary {
+    padding: 1rem 0;
+}
+.user-summary span:first-child {
+    margin-left: 1rem;
+}
+.btn {
+   border: none;
+   padding: .5rem .6rem;
+   border-radius: 0.3125rem;
+   margin-right: .5rem;
+   background-color: inherit;
+}
+.btn:hover {
+    background-color: #07BEB8;
+    color: white;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container span {
+    background-color: hsl(178, 41%, 71%);
+    padding: 1rem .5rem;
+    width: 100%;
+}
+.flex-container span:nth-child(even) {
+    background-color: hsl(178, 81%, 94%);
+}
+.user-more-info {
+    display: none;
+}
+
+
+@media (min-width:1000px) {
+body {
+    width: 50%;
+}
+li {
+    font-size: 0.875rem;
+}
+}
