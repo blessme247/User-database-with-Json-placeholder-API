@@ -8,3 +8,6 @@ While working on this project, I learnt;
 --How to nest a javaScript function inside another JavaScript function
 --Different syntax for JavaScript functions
 --How to traverse the DOM in JavaScript
+
+#Screenshot of the project
+![Screenshot (40)](https://user-images.githubusercontent.com/67491400/172889591-dfcb55bb-8c83-42c8-b47a-ec1cb512ec8f.png)
